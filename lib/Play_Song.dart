@@ -113,8 +113,9 @@ class MyScaffold extends StatelessWidget {
             children: [
               Image(
                   image: AssetImage(
-                    "assets/images/Now_Playing.png",
+                    "assets/images/Billie_Jean_Song.png",
                   ),
+                  fit: BoxFit.cover,
                   width: 150,
                   height: 150),
               SizedBox(
@@ -191,12 +192,9 @@ class MyScaffold extends StatelessWidget {
                   ],
                 ),
               ),
-              Image(
-                image: AssetImage("assets/images/EQ_Display.png"),
-                width: 150,
-              ),
+              Icon(Icons.home),
               Padding(
-                padding: const EdgeInsets.only(top: 10, left: 10, right: 10),
+                padding: const EdgeInsets.only(left: 10, right: 10),
                 child: Container(height: 0.2, color: Colors.grey),
               ),
               Padding(

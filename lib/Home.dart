@@ -43,28 +43,29 @@ class MyScaffold extends StatelessWidget {
                       ),
                       width: 172,
                       child: TextField(
-                          textAlign: TextAlign.left,
-                          decoration: InputDecoration(
-                            icon: Padding(
-                              padding: const EdgeInsets.only(left:8.0),
-                              child: Icon(
-                                Icons.search,
-                                color: const Color(0x33ffffff),
-                                size: 16.0,
-                              ),
-                            ),
-                            contentPadding: EdgeInsets.only(bottom: 17.0),
-                            border: InputBorder.none,
-                            hintText: "Search album song",
-                            alignLabelWithHint: true,
-                            fillColor: Colors.white,
-                            hintStyle: TextStyle(
-                              fontFamily: 'Circular Std Book',
-                              fontSize: 10.0,
+                        textAlign: TextAlign.left,
+                        decoration: InputDecoration(
+                          icon: Padding(
+                            padding: const EdgeInsets.only(left: 8.0),
+                            child: Icon(
+                              Icons.search,
                               color: const Color(0x33ffffff),
-                              letterSpacing: 0.26,
+                              size: 16.0,
                             ),
-                          )),
+                          ),
+                          contentPadding: EdgeInsets.only(bottom: 17.0),
+                          border: InputBorder.none,
+                          hintText: "Search album song",
+                          alignLabelWithHint: true,
+                          fillColor: Colors.white,
+                          hintStyle: TextStyle(
+                            fontFamily: 'Circular Std Book',
+                            fontSize: 10.0,
+                            color: const Color(0x33ffffff),
+                            letterSpacing: 0.26,
+                          ),
+                        ),
+                      ),
                     )
                   ],
                 ),
@@ -142,41 +143,42 @@ class MyScaffold extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Image(
-                              image: AssetImage(
-                                "assets/images/Joshua_Fuller.png",
-                              ),
-                              width: 200,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image(
+                            image: AssetImage(
+                              "assets/images/Joshua_Fuller.png",
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 10.0),
-                              child: Text(
-                                "Girl on Fire",
-                                style: TextStyle(
-                                  fontFamily: 'Circular Std Medium',
-                                  fontSize: 12.0,
-                                  color: const Color(0xccffffff),
-                                  letterSpacing: 0.5,
-                                  height: 1.1333333333333333,
-                                ),
+                            width: 200,
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 10.0),
+                            child: Text(
+                              "Girl on Fire",
+                              style: TextStyle(
+                                fontFamily: 'Circular Std Medium',
+                                fontSize: 12.0,
+                                color: const Color(0xccffffff),
+                                letterSpacing: 0.5,
+                                height: 1.1333333333333333,
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 5.0),
-                              child: Text(
-                                "Alecia Keys",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 10.0,
-                                  color: Colors.white24,
-                                  letterSpacing: 0.3,
-                                  height: 1.1333333333333333,
-                                ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 5.0),
+                            child: Text(
+                              "Alecia Keys",
+                              style: TextStyle(
+                                fontWeight: FontWeight.w400,
+                                fontSize: 10.0,
+                                color: Colors.white24,
+                                letterSpacing: 0.3,
+                                height: 1.1333333333333333,
                               ),
-                            )
-                          ]),
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   ],
                 ),
@@ -220,41 +222,42 @@ class MyScaffold extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Image(
-                              image: AssetImage(
-                                "assets/images/Classic_Playlist.png",
-                              ),
-                              width: 100,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image(
+                            image: AssetImage(
+                              "assets/images/Classic_Playlist.png",
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 10.0),
-                              child: Text(
-                                "Classic Playlist",
-                                style: TextStyle(
-                                  fontFamily: 'Circular Std Medium',
-                                  fontSize: 12.0,
-                                  color: const Color(0xccffffff),
-                                  letterSpacing: 0.5,
-                                  height: 1.1333333333333333,
-                                ),
+                            width: 100,
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 10.0),
+                            child: Text(
+                              "Classic Playlist",
+                              style: TextStyle(
+                                fontFamily: 'Circular Std Medium',
+                                fontSize: 12.0,
+                                color: const Color(0xccffffff),
+                                letterSpacing: 0.5,
+                                height: 1.1333333333333333,
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 5.0),
-                              child: Text(
-                                "Piano Guys",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 10.0,
-                                  color: Colors.white24,
-                                  letterSpacing: 0.3,
-                                  height: 1.1333333333333333,
-                                ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 5.0),
+                            child: Text(
+                              "Piano Guys",
+                              style: TextStyle(
+                                fontWeight: FontWeight.w400,
+                                fontSize: 10.0,
+                                color: Colors.white24,
+                                letterSpacing: 0.3,
+                                height: 1.1333333333333333,
                               ),
-                            )
-                          ]),
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
@@ -298,41 +301,42 @@ class MyScaffold extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Image(
-                              image: AssetImage(
-                                "assets/images/Pop_Music.png",
-                              ),
-                              width: 100,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image(
+                            image: AssetImage(
+                              "assets/images/Pop_Music.png",
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 10.0),
-                              child: Text(
-                                "Pop Music",
-                                style: TextStyle(
-                                  fontFamily: 'Circular Std Medium',
-                                  fontSize: 12.0,
-                                  color: const Color(0xccffffff),
-                                  letterSpacing: 0.5,
-                                  height: 1.1333333333333333,
-                                ),
+                            width: 100,
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 10.0),
+                            child: Text(
+                              "Pop Music",
+                              style: TextStyle(
+                                fontFamily: 'Circular Std Medium',
+                                fontSize: 12.0,
+                                color: const Color(0xccffffff),
+                                letterSpacing: 0.5,
+                                height: 1.1333333333333333,
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 5.0),
-                              child: Text(
-                                "Michael Jackson",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 10.0,
-                                  color: Colors.white24,
-                                  letterSpacing: 0.3,
-                                  height: 1.1333333333333333,
-                                ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 5.0),
+                            child: Text(
+                              "Michael Jackson",
+                              style: TextStyle(
+                                fontWeight: FontWeight.w400,
+                                fontSize: 10.0,
+                                color: Colors.white24,
+                                letterSpacing: 0.3,
+                                height: 1.1333333333333333,
                               ),
-                            )
-                          ]),
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   ],
                 ),
@@ -403,43 +407,44 @@ class MyScaffold extends StatelessWidget {
                   width: 75.0,
                   child: Center(
                     child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.favorite_border,
-                            color: Colors.pink[400],
-                            size: 16.0,
-                          ),
-                          Row(
-                            children: [
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star_border,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                            ],
-                          )
-                        ]),
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.favorite_border,
+                          color: Colors.pink[400],
+                          size: 16.0,
+                        ),
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star_border,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -481,43 +486,44 @@ class MyScaffold extends StatelessWidget {
                   width: 75.0,
                   child: Center(
                     child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.favorite_border,
-                            color: Colors.pink[400],
-                            size: 16.0,
-                          ),
-                          Row(
-                            children: [
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star_border,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                            ],
-                          )
-                        ]),
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.favorite_border,
+                          color: Colors.pink[400],
+                          size: 16.0,
+                        ),
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star_border,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -559,43 +565,44 @@ class MyScaffold extends StatelessWidget {
                   width: 75.0,
                   child: Center(
                     child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.favorite_border,
-                            color: Colors.pink[400],
-                            size: 16.0,
-                          ),
-                          Row(
-                            children: [
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star_border,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                            ],
-                          )
-                        ]),
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.favorite_border,
+                          color: Colors.pink[400],
+                          size: 16.0,
+                        ),
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star_border,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -637,43 +644,44 @@ class MyScaffold extends StatelessWidget {
                   width: 75.0,
                   child: Center(
                     child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.favorite_border,
-                            color: Colors.pink[400],
-                            size: 16.0,
-                          ),
-                          Row(
-                            children: [
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                              Icon(
-                                Icons.star_border,
-                                color: const Color(0xffed8770),
-                                size: 14.0,
-                              ),
-                            ],
-                          )
-                        ]),
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.favorite_border,
+                          color: Colors.pink[400],
+                          size: 16.0,
+                        ),
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                            Icon(
+                              Icons.star_border,
+                              color: const Color(0xffed8770),
+                              size: 14.0,
+                            ),
+                          ],
+                        )
+                      ],
+                    ),
                   ),
                 ),
               ),
@@ -685,42 +693,47 @@ class MyScaffold extends StatelessWidget {
         decoration: BoxDecoration(
           boxShadow: [
             BoxShadow(
-                blurRadius: 20,
-                color: Colors.black,
-                spreadRadius: 3,
-                offset: Offset.fromDirection(0.1)),
+              blurRadius: 20,
+              color: Colors.black,
+              spreadRadius: 3,
+              offset: Offset.fromDirection(0.1),
+            ),
           ],
         ),
         child: BottomNavigationBar(
-            elevation: 0,
-            backgroundColor: const Color(0xff181b2c),
-            items: [
-              BottomNavigationBarItem(
-                  icon: Icon(
-                    Icons.widgets,
-                    size: 18,
-                    color: Colors.pink[400],
-                  ),
-                  title: Text(
-                    "Home",
-                    style: TextStyle(color: Colors.pink[400], fontSize: 10.0),
-                  )),
-              BottomNavigationBarItem(
-                  icon: Image.asset(
-                    "assets/images/Music.png",
-                    height: 16,
-                  ),
-                  title: Text(
-                    "Songs",
-                    style: TextStyle(color: Colors.grey[600], fontSize: 10.0),
-                  )),
-              BottomNavigationBarItem(
-                  icon: Image.asset("assets/images/Settings.png", height: 16),
-                  title: Text(
-                    "Settings",
-                    style: TextStyle(color: Colors.grey[600], fontSize: 10.0),
-                  )),
-            ]),
+          elevation: 0,
+          backgroundColor: const Color(0xff181b2c),
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.widgets,
+                size: 18,
+                color: Colors.pink[400],
+              ),
+              title: Text(
+                "Home",
+                style: TextStyle(color: Colors.pink[400], fontSize: 10.0),
+              ),
+            ),
+            BottomNavigationBarItem(
+              icon: Image.asset(
+                "assets/images/Music.png",
+                height: 16,
+              ),
+              title: Text(
+                "Songs",
+                style: TextStyle(color: Colors.grey[600], fontSize: 10.0),
+              ),
+            ),
+            BottomNavigationBarItem(
+              icon: Image.asset("assets/images/Settings.png", height: 16),
+              title: Text(
+                "Settings",
+                style: TextStyle(color: Colors.grey[600], fontSize: 10.0),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
